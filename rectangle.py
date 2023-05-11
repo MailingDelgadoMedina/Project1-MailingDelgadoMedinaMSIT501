@@ -1,18 +1,25 @@
 # import the libraries needed
-from math import pi
+
 
 # Must ask for customer name
 name = input('What is the name of the customer? ')
 # Must ask for customer address
 address = input('What is the address of the customer? ')
-# Must ask for the dimension of the room in feet
-one_side_of_the_room_size = eval(input('What is the size of 1 side of the room (in feet)? '))
+# Must ask for the length of the room in feet
+one_side_of_the_room_size = eval(input(' What is the size of the length of the room (in feet)?'))
+
+
 # It should determine the cost to put the flooring in the room
+
  #area = side1 * side2
+
+
 # Flooring material cost 2.00
 flooring_material_cost = 2.00
+
 # Estimated cost for flooring material
 total_flooring_material_cost = area * flooring_material_cost
+
 # Installation cost 1.50
 installation_cost = 1.50
 
